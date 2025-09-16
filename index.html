@@ -1,13 +1,63 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Code Blue RN</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: linear-gradient(135deg, #0077b6, #00b4d8);
+      color: #fff;
+      text-align: center;
+    }
+    header {
+      padding: 50px 20px;
+    }
+    header h1 {
+      font-size: 2.5rem;
+      margin-bottom: 10px;
+    }
+    header p {
+      font-size: 1.2rem;
+      color: #caf0f8;
+    }
+    .container {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      margin: 50px auto;
+      flex-wrap: wrap;
+      max-width: 800px;
+    }
+    .card {
+      background: #ffffff22;
+      border-radius: 12px;
+      padding: 30px;
+      width: 250px;
+      text-decoration: none;
+      color: #fff;
+      font-size: 1.2rem;
+      font-weight: bold;
+      transition: 0.3s;
+      box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+    }
+    .card:hover {
+      background: #ffffff44;
+      transform: translateY(-5px);
+    }
+  </style>
 </head>
 <body>
-  <h1>Welcome to Code blue RN policy and terms of service</h1>
-  <ul>
-    <li><a href="privacy-policy.html">Privacy policy</a></li>
-    <li><a href="terms-of-service.html">Terms of service</a></li>
-  </ul>
+  <header>
+    <h1>Welcome to Code Blue RN</h1>
+    <p>Your trusted nursing app policies and terms</p>
+  </header>
+  <div class="container">
+    <a href="privacy-policy.html" class="card">📘 Privacy Policy</a>
+    <a href="terms-of-service.html" class="card">📑 Terms of Service</a>
+  </div>
 </body>
 </html>
+
